@@ -1,0 +1,45 @@
+.app{
+  background-color: black;
+  color: white;
+  height: 100vh;
+}
+.header{
+  font-size: 2rem;
+  font-weight: 900;
+  height: 8vh;
+ border-bottom: 2px solid beige;
+}
+.aligncenter{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.board{
+  height:92vh;
+   font-size: 2rem;
+  font-weight: 900;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.row{
+  display: flex;
+  height: 20vh;
+}
+.cell{
+  width: 20vw;
+  border: 1px solid white;
+  font-size:4rem ;
+}
+.xbgcolor{
+  background-color: brown;
+}
+.obgcolor{
+  background-color: chocolate;
+}
+button{
+  height: 5vh;
+  width: 25vw;
+  font-size: 1.25rem;
+  background-color: rgb(108, 74, 139);
+}
